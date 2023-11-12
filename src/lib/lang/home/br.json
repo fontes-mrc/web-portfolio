@@ -1,0 +1,61 @@
+{
+	"hero": {
+		"greetings": "Olá, meu nome é",
+		"description": {
+			"web": "mas o pessoal me chama de",
+			"mobile": "me chame de",
+			"values": [
+				"nerd do computador.",
+				"o cara de dados.",
+				"programador por hobbie.",
+				"tio dos gatos."
+			]
+		}
+	},
+	"content": {
+		"about": {
+			"title": "Que legal ter você aqui, deixa eu me apresentar...",
+			"paragraphs": [
+				"Sempre fui muito curioso e sou apaixonado pelo que faço. Atualmente trabalho como Engenheiro de Dados, mas costumo me definir como um generalista que gosta de Design e Tecnologia de modo geral. Nesta longa estrada da vida já fui designer gráfico, analista de dados, desenvolvedor back-end e de automações.",
+				"No tempo livre eu programo uns troços em duas dimensões e posso dizer que eu sou grande apreciador de memes, gifs de gatinhos e jogos de construção e estratégia."
+			]
+		},
+		"interests": {
+			"title": "Então, é com isso que eu curto trabalhar:",
+			"items": {
+				"de": {
+					"title": "Engenharia de Dados",
+					"description": "Organização e análise eficiente de grandes volumes de dados."
+				},
+				"cloud": {
+					"title": "Computação em Nuvem",
+					"description": "Armazenamento e processamento de dados online, em servidores remotos."
+				},
+				"automation": {
+					"title": "Automação de Processos",
+					"description": "Substituição de tarefas manuais por sistemas automatizados."
+				},
+				"geometry": {
+					"title": "Geometria Plana",
+					"description": "Estudo das formas e relações no espaço bidimensional."
+				},
+				"nlp": {
+					"title": "Processamento de Linguagem Natural",
+					"description": "Compreensão e manipulação de linguagem humana por computadores."
+				},
+				"ml": {
+					"title": "Aprendizado de Máquina",
+					"description": "Algoritmos que permitem a máquina aprender padrões e tomar decisões."
+				},
+				"python": {
+					"title": "Desenvolvimento em Python",
+					"description": "Programação para web e uns projetinhos divertidos."
+				},
+				"science": {
+					"title": "Método Científico",
+					"description": "Abordagem sistemática para investigar fenômenos naturais."
+				}
+			}
+		}
+	}
+}

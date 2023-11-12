@@ -4,10 +4,10 @@
 	--font-mono: 'Fira Mono', monospace;
 	--main-color: #e95a36;
 	--alt-color: #7290db;
-	--back-color: #0F1729;
+	--back-color: #0f1729;
 	--back-color-2: #16213b;
 	--back-color-3: #1d2e59a6;
-	--light-gray: #D7DADF;
+	--light-gray: #d7dadf;
 	--white: #fff;
 	--x: 0;
 	--y: 0;
@@ -35,25 +35,11 @@ h3 {
 
 body {
 	min-height: 100vh;
-	margin: 0; 
+	margin: 0;
 	background-size: 10rem 10rem;
 	background-color: var(--back-color);
-	background-image:
-		linear-gradient(to right, var(--back-color-2) 1px, transparent 1px),
+	background-image: linear-gradient(to right, var(--back-color-2) 1px, transparent 1px),
 		linear-gradient(to bottom, var(--back-color-2) 1px, transparent 1px);
-}
-
-.light-layer {
-	--size: 80;
-	content: '';
-	z-index: -1;
-	position: fixed;
-	left: calc(var(--x) * 1px);
-	top: calc(var(--y) * 1px);
-	width: calc(var(--size) * 1rem);
-	height: calc(var(--size) * 1rem);
-	background: radial-gradient(circle closest-side, var(--back-color-3), transparent);
-	transform: translate(-50%, -50%);
 }
 
 .visually-hidden {
@@ -71,14 +57,14 @@ body {
 *::-webkit-scrollbar {
 	width: 0.5rem;
 	height: 0.5rem;
-  }
-  
-  *::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-track {
 	background: var(--back-color);
-  }
-  
-  *::-webkit-scrollbar-thumb {
+}
+
+*::-webkit-scrollbar-thumb {
 	background-color: var(--back-color-3);
 	border-radius: 5px;
 	border: 0px solid var(--back-color);
-  }
+}

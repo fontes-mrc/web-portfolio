@@ -1,0 +1,56 @@
+{
+	"hero": {
+		"greetings": "Hi, this is",
+		"description": {
+			"web": "but folks call me",
+			"mobile": "call me",
+			"values": ["the computer guy.", "data engineer.", "hobbyist programmer.", "cat uncle."]
+		}
+	},
+	"content": {
+		"about": {
+			"title": "It's great to have you here, let me introduce myself...",
+			"paragraphs": [
+				"I've always had a curious mind and a real passion for my work. Right now, I work as Data Engineer, but I like to see myself as a well-rounded enthusiast who simply loves everything about Design and Technology. Throughout my career journey, I've worn different hats – from graphic designer to data analyst and back-end developer.",
+				"In my free time, I tinker with things in two dimensions, and I'm a big fan of memes, cute cat gifs, and city builder games."
+			]
+		},
+		"interests": {
+			"title": "So, here's what I enjoy working with:",
+			"items": {
+				"de": {
+					"title": "Data Engineering",
+					"description": "Efficient processing and analysis of large volumes of data."
+				},
+				"cloud": {
+					"title": "Cloud Computing",
+					"description": "Storage, manage and process data on remote servers."
+				},
+				"automation": {
+					"title": "Automation",
+					"description": "Replacing manual tasks with automated systems."
+				},
+				"geometry": {
+					"title": "Flat Geometry",
+					"description": "Study of shapes and relationships in two-dimensional space."
+				},
+				"nlp": {
+					"title": "Natural Language Processing",
+					"description": "Understanding and manipulating human language by computers."
+				},
+				"ml": {
+					"title": "Machine Learning",
+					"description": "Algorithms that enable machines to learn patterns and make decisions."
+				},
+				"python": {
+					"title": "Python Development",
+					"description": "Web programming and some fun side projects."
+				},
+				"science": {
+					"title": "Scientific Method",
+					"description": "The process of objectively establishing facts through testing and experimentation."
+				}
+			}
+		}
+	}
+}
