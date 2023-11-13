@@ -3,13 +3,15 @@
 	import { onMount } from 'svelte';
 	import Footer from './footer.svelte';
 
-	let lang = 'en';
+	let lang = '';
 
 	onMount(() => {
 		document.addEventListener('mousemove', function (e) {
 			document.documentElement.style.setProperty('--x', e.clientX.toString());
 			document.documentElement.style.setProperty('--y', e.clientY.toString());
 		});
+
+		lang = document.documentElement.lang == 'pt-br' ? 'br' : 'en';
 	});
 </script>
 

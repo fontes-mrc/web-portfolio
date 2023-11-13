@@ -90,6 +90,12 @@
 		text-align: justify;
 	}
 
+	@media (max-width: 768px) {
+		.text-block {
+			text-align: left;
+		}
+	}
+
 	.text-block p {
 		line-height: 1.5rem;
 		font-size: 1rem;

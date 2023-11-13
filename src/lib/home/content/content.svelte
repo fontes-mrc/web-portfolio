@@ -1,15 +1,19 @@
 <script>
 	// @ts-nocheck
+	export let modalProps = {};
+
 	export let corpus;
 	let { content } = corpus;
 
 	import About from './about/about.svelte';
 	import Interests from './interests/interests.svelte';
+	import Projects from './projects/projects.svelte';
 </script>
 
 <div class="content">
 	<About corpus={content} />
 	<Interests corpus={content} />
+	<Projects corpus={content} bind:modalProps />
 </div>
 
 <style>
@@ -22,5 +26,11 @@
 		backdrop-filter: blur(5px);
 		background-color: rgba(0, 0, 0, 0.05);
 		border-radius: 0.5rem;
+	}
+
+	@media (max-width: 768px) {
+		.content {
+			padding: 1rem;
+		}
 	}
 </style>

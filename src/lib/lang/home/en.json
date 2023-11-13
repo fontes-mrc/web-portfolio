@@ -51,6 +51,90 @@
 					"description": "The process of objectively establishing facts through testing and experimentation."
 				}
 			}
+		},
+		"projects": {
+			"title": "Well, I've been called to do a thing or two:",
+			"items": [
+				{
+					"company": "Yamaha Motor do Brasil",
+					"companyLogo": "/svg/logo-yamaha.svg",
+					"companySite": "https://www.yamaha-motor.com/",
+					"period": "2019 — 2020",
+					"role": "Business Intelligence Analyst",
+					"title": "Opportunity map for oil sales",
+					"description": "A great case of cooperation and creativity in a challenging scenario.",
+					"tools": ["Business Intelligence", "Data Processing", "Excel", "VBA", "Power BI"]
+				},
+				{
+					"company": "Ajinomoto",
+					"companyLogo": "/svg/logo-ajinomoto.svg",
+					"companySite": "https://www.ajinomoto.com/",
+					"period": "2023",
+					"role": "Data Engineer - Contractor",
+					"title": "Implementation of an analytics architecture on cloud",
+					"description": "Serverless, scalable, and cost-optimized data pipelines. Data infrastructure as code.",
+					"tools": [
+						"Data Architecture",
+						"Data Engineering",
+						"Cloud Computing",
+						"AWS CDK",
+						"Python",
+						"PySpark"
+					]
+				},
+				{
+					"company": "Rabbot",
+					"companyLogo": "/svg/logo-rabbot.svg",
+					"title": "Teachable image classifier",
+					"companySite": "https://rabbot.co/",
+					"period": "2021",
+					"role": "Data Engineer",
+					"description": "How I enabled the creation of a personalized image classification model as a product feature.",
+					"tools": [
+						"Machine Learning",
+						"Computer Vision",
+						"Cloud Computing",
+						"Tensorflow",
+						"Python",
+						"AWS"
+					]
+				},
+				{
+					"company": "DocBr",
+					"companyLogo": "/svg/logo-opensource.svg",
+					"companySite": "https://github.com/fontes-mrc/docbr/tree/main",
+					"period": "2023 — Presente",
+					"role": "Main Developer",
+					"title": "Python library for brazilian document validation at scale",
+					"description": "Creating a Python library for document validation to use in data pipelines.",
+					"tools": ["Numpy", "Open Source", "Python Library"]
+				},
+				{
+					"company": "ivi by Hisnek",
+					"companyLogo": "/svg/logo-ivi.svg",
+					"companySite": "https://conteudo.minhaivi.com/landing-page",
+					"period": "2022 — 2023",
+					"role": "Data Specialist",
+					"title": "Content recommendations based on mental health",
+					"description": "A case on how technology, when developed in collaboration with other fields of knowledge, can be a powerful tool for social impact.",
+					"tools": ["Machine Learning", "Data Engineering", "Data Analysis", "Scientific Method"]
+				},
+				{
+					"company": "Pro AT",
+					"companyLogo": "/svg/logo-proat.svg",
+					"period": "2023",
+					"role": "Developer",
+					"title": "Physical evolution report for patients",
+					"description": "An experiment on improving the patient's user experience by tracking progress in physical conditions.",
+					"tools": [
+						"User Experience Design",
+						"Process Automation",
+						"Python",
+						"Google Sheets",
+						"AWS"
+					]
+				}
+			]
 		}
 	}
 }

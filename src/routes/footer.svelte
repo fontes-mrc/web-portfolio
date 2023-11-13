@@ -18,7 +18,9 @@
 		background-color: rgba(0, 0, 0, 0.35);
 		backdrop-filter: blur(3px);
 		font-size: 0.9rem;
-		height: 3rem;
+		height: 4rem;
+		padding: 0 2rem;
+		text-align: center;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

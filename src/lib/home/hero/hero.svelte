@@ -94,7 +94,7 @@
 	}
 
 	.hero h2 {
-		font-size: 1rem;
+		font-size: 1.2rem;
 		font-weight: 500;
 	}
 
@@ -129,6 +129,11 @@
 	}
 
 	@media (max-width: 768px) {
+		.hero {
+			max-width: 100%;
+			width: 100%;
+		}
+
 		#desc-web {
 			display: none;
 		}
@@ -142,19 +147,8 @@
 		}
 
 		.desc-wrapper {
-			font-size: 1rem;
-			height: 1.3rem;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.hero h1 {
-			font-size: 2.8rem;
-		}
-
-		.desc-wrapper {
-			font-size: 0.9rem;
-			height: 1.1rem;
+			font-size: 1.1rem;
+			height: 1.2rem;
 		}
 	}
 

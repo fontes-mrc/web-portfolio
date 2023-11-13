@@ -13,7 +13,7 @@
 
 		function startDragging(e) {
 			mouseDown = true;
-			startX = e.pageX - carousel.offsetLeft;
+			startX = e.pageX || e.touches[0].pageX;
 			scrollLeft = carousel.scrollLeft;
 		}
 
@@ -24,7 +24,7 @@
 		function drag(e) {
 			if (!mouseDown) return;
 			e.preventDefault();
-			const x = e.pageX - carousel.offsetLeft;
+			const x = e.pageX || e.touches[0].pageX;
 			const scroll = x - startX;
 			carousel.scrollLeft = scrollLeft - scroll;
 			if (scroll > 0) {
