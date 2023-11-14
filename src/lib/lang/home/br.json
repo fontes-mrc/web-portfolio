@@ -1,0 +1,151 @@
+{
+	"hero": {
+		"greetings": "Olá, meu nome é",
+		"message": "Novidades em Breve!",
+		"description": {
+			"web": "mas o pessoal me chama de",
+			"mobile": "me chame de",
+			"values": [
+				"nerd do computador.",
+				"o cara de dados.",
+				"programador por hobbie.",
+				"tio dos gatos."
+			]
+		}
+	},
+	"content": {
+		"about": {
+			"title": "Que legal ter você aqui, deixa eu me apresentar...",
+			"paragraphs": [
+				"Sempre fui muito curioso e sou apaixonado pelo que faço. Atualmente trabalho como Engenheiro de Dados, mas costumo me definir como um generalista que gosta de Design e Tecnologia de modo geral. Nesta longa estrada da vida já fui designer gráfico, analista de dados, desenvolvedor back-end e de automações.",
+				"No tempo livre eu programo uns troços em duas dimensões e posso dizer que eu sou grande apreciador de memes, gifs de gatinhos e jogos de construção e estratégia."
+			]
+		},
+		"interests": {
+			"title": "Então, é com isso que eu curto trabalhar:",
+			"items": {
+				"de": {
+					"title": "Engenharia de Dados",
+					"description": "Organização e análise eficiente de grandes volumes de dados."
+				},
+				"cloud": {
+					"title": "Computação em Nuvem",
+					"description": "Armazenamento e processamento de dados online, em servidores remotos."
+				},
+				"automation": {
+					"title": "Automação de Processos",
+					"description": "Substituição de tarefas manuais por sistemas automatizados."
+				},
+				"geometry": {
+					"title": "Geometria Plana",
+					"description": "Estudo das formas e relações no espaço bidimensional."
+				},
+				"nlp": {
+					"title": "Processamento de Linguagem Natural",
+					"description": "Compreensão e manipulação de linguagem humana por computadores."
+				},
+				"ml": {
+					"title": "Aprendizado de Máquina",
+					"description": "Algoritmos que permitem a máquina aprender padrões e tomar decisões."
+				},
+				"python": {
+					"title": "Desenvolvimento em Python",
+					"description": "Programação para web e uns projetinhos divertidos."
+				},
+				"science": {
+					"title": "Método Científico",
+					"description": "Abordagem sistemática para investigar fenômenos naturais."
+				}
+			}
+		},
+		"projects": {
+			"title": "Olha, já me chamaram para fazer uma coisa ou outra:",
+			"items": [
+				{
+					"company": "Yamaha Motor do Brasil",
+					"companyLogo": "/svg/logo-yamaha.svg",
+					"companySite": "https://www.yamaha-motor.com.br/",
+					"period": "2019 — 2020",
+					"role": "Analista de Inteligência de Negócios",
+					"title": "Mapa de oportunidades de venda de óleo",
+					"description": "Uma ótimo case de cooperação e criatividade em um cenário adverso.",
+					"tools": ["Inteligência de Negócios", "Tratamento de Dados", "Excel", "VBA", "Power BI"]
+				},
+				{
+					"company": "Ajinomoto",
+					"companyLogo": "/svg/logo-ajinomoto.svg",
+					"companySite": "https://www.ajinomoto.com.br/",
+					"period": "2023",
+					"role": "Engenheiro de Dados - Consultor",
+					"title": "Implementação de arquitetura de analytics na nuvem",
+					"description": "Pipelines de dados orquestradas de forma serverless, escalável e com custo otimizado. Infraestrutura de dados como código.",
+					"tools": [
+						"Arquitetura de Dados",
+						"Engenharia de Dados",
+						"Computação em Nuvem",
+						"AWS CDK",
+						"Python",
+						"PySpark"
+					]
+				},
+				{
+					"company": "Rabbot",
+					"companyLogo": "/svg/logo-rabbot.svg",
+					"companySite": "https://rabbot.co/",
+					"period": "2021",
+					"role": "Engenheiro de Dados",
+					"title": "Classificador de imagens treinável pelos usuários",
+					"description": "Como viabilizei a criação de um modelo de classificação de imagens personalizado como uma feature de um produto.",
+					"tools": [
+						"Aprendizado de Máquina",
+						"Visão Computacional",
+						"Computação em Nuvem",
+						"Tensorflow",
+						"Python",
+						"AWS"
+					]
+				},
+				{
+					"company": "DocBr",
+					"companyLogo": "/svg/logo-opensource.svg",
+					"companySite": "https://github.com/fontes-mrc/docbr/tree/main",
+					"period": "2023 — Presente",
+					"role": "Principal Desenvolvedor",
+					"title": "Biblioteca em python para validação de documentos em escala",
+					"description": "Como criei uma biblioteca em Python para validação de documentos em escala para ser utilizado em pipelines de dados.",
+					"tools": ["Numpy", "Open Source", "Biblioteca Python"]
+				},
+				{
+					"company": "ivi by Hisnek",
+					"companyLogo": "/svg/logo-ivi.svg",
+					"companySite": "https://conteudo.minhaivi.com/landing-page",
+					"period": "2022 — 2023",
+					"role": "Especialista em Dados",
+					"title": "Sugestão de conteúdos com base no estado de saúde mental",
+					"description": "Um caso sobre como a tecnologia, quando desenvolvida em conjunto com outras áreas do conhecimento, pode ser uma ferramenta poderosa para o bem.",
+					"tools": [
+						"Aprendizado de Máquina",
+						"Engenharia de Dados",
+						"Análise de Dados",
+						"Método Científico"
+					]
+				},
+				{
+					"company": "Pro AT",
+					"companyLogo": "/svg/logo-proat.svg",
+					"period": "2023",
+					"role": "Desenvolvedor",
+					"title": "Relatório de evolução física de pacientes",
+					"description": "Um experimento de como melhorar a experiência de pacientes com o rastreamento do progresso de condições físicas.",
+					"tools": [
+						"Design de Experiência do Usuário",
+						"Automatização de Processos",
+						"Python",
+						"Google Sheets",
+						"AWS"
+					]
+				}
+			]
+		}
+	}
+}
