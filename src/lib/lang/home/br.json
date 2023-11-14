@@ -1,6 +1,7 @@
 {
 	"hero": {
 		"greetings": "Olá, meu nome é",
+		"message": "Novidades em Breve!",
 		"description": {
 			"web": "mas o pessoal me chama de",
 			"mobile": "me chame de",

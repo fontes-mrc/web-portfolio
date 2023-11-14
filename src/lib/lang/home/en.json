@@ -1,6 +1,7 @@
 {
 	"hero": {
 		"greetings": "Hi, this is",
+		"message": "News Soon!",
 		"description": {
 			"web": "but folks call me",
 			"mobile": "call me",

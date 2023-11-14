@@ -17,6 +17,9 @@
 	});
 </script>
 
+<div class="message">
+	<p>{hero.message}</p>
+</div>
 <div class="hero">
 	<h2>{hero.greetings}</h2>
 	<h1>Maurício Fontes</h1>
@@ -71,7 +74,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="scroll-icon" />
+	<!-- <div class="scroll-icon" /> -->
 </div>
 
 <style>
@@ -200,7 +203,21 @@
 		transform: translateY(-0.3rem);
 	}
 
-	.scroll-icon {
+	.message {
+		position: absolute;
+		background-color: var(--back-color-3);
+		top: 4rem;
+		width: 100%;
+		font-size: 1.5rem;
+		color: var(--main-color);
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		text-align: center;
+		padding: 0.5rem 0;
+	}
+
+	/* .scroll-icon {
 		position: absolute;
 		bottom: 4rem;
 		left: 50%;
@@ -209,7 +226,7 @@
 		border-left: 1px solid var(--light-gray);
 		border-bottom: 1px solid var(--light-gray);
 		animation: scrollIcon 1s infinite;
-	}
+	} */
 
 	@keyframes scrollIcon {
 		0% {
