@@ -26,7 +26,7 @@
 </div>
 
 <slot />
-<!-- <Footer bind:lang /> -->
+<Footer bind:lang />
 <div class="light-layer" />
 
 <style>
