@@ -33,6 +33,7 @@
 	.image-bg {
 		min-width: 10%;
 		height: auto;
+		margin-bottom: 2rem;
 		border-radius: 0.5rem;
 		background-color: var(--main-color);
 		border: 1px solid var(--alt-color);

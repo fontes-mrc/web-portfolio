@@ -66,83 +66,21 @@
 					<h2>{modalProps.role}</h2>
 				</div>
 				<div class="content">
-					<!-- <img src="/images/yamaha-header.png" alt="Imagem de Capa" />
-					<h1>Contexto do Projeto</h1>
-					<p>
-						Este projeto foi desenvolvido pelo departamento de pós-vendas da Yamaha Motor do Brasil,
-						em colaboração entre as equipes de vendas e de produtos, enquanto eu atuava como
-						analista de inteligência de negócios em 2019. A equipe de produtos, nesse contexto, era
-						responsável pela estratégia de fornecimento e precificação de peças de reposição e
-						acessórios em toda a rede de concessionárias em todo o Brasil.
-					</p>
-					<p>
-						O objetivo era simples: aumentar a participação de mercado do óleo da marca (Yamalube)
-						em sua própria frota circulante, uma diretriz definida globalmente pela Yamaha Motor Co.
-						no Japão.
-					</p>
-					<p>
-						No entanto, havia um problema: a disponibilidade do produto no mercado era baixa e o
-						preço muito elevado, uma vez que existiam poucos pontos de venda: as concessionárias e
-						alguns poucos varejistas que compravam o óleo dessas concessionárias.
-					</p>
-					<h1>Solução Desenvolvida</h1>
-					<p>
-						A solução consistiu em estabelecer parcerias com algumas concessionárias para que se
-						tornassem distribuidoras de óleo. Nesse processo, abrimos mão de boa parte da margem de
-						lucro em prol do aumento do escoamento do produto para varejistas menores a um preço
-						competitivo.
-					</p>
-					<p>
-						A questão central era: onde deveríamos criar esses distribuidores e qual era a
-						capacidade real de absorção do mercado na região? Foi nesse ponto que desempenhei meu
-						papel como analista de inteligência de mercado.
-					</p>
-					<p>
-						Minha ideia foi mapear oportunidades no mercado, considerando a distribuição da frota
-						circulante com base nos relatórios de emplacamento de motos por modelo e cidade.
-					</p>
-					<img src="/images/yamaha-heatmap.png" alt="Exemplo Mapa de Calor" />
-					<p>
-						Para isso, considerei várias camadas de dados e cálculos para criar as informações
-						necessárias que orientariam a equipe de vendas:
-					</p>
-					<ul>
-						<li>Emplacamento de motocicletas em um período específico;</li>
-						<li>
-							Cálculo da frota circulante, levando em conta índices de deterioração da frota ao
-							longo do tempo;
-						</li>
-						<li>
-							Cálculo do consumo anual de óleo com base em índices de rodagem e revisões por modelo;
-						</li>
-						<li>Vendas reais de óleo em uma determinada região;</li>
-						<li>Cálculo da diferença entre o consumo estimado e as vendas reais;</li>
-						<li>Concessionárias com o porte necessário para se tornarem distribuidoras;</li>
-						<li>Possíveis varejistas com base na base de CNPJs da Receita Federal.</li>
-					</ul>
-					<p>
-						Com essas informações em mãos, o processo de análise visa identificar as regiões com a
-						maior diferença entre o consumo estimado e as vendas reais com uma vasta rede de
-						varejistas que poderiam absorver os produtos de um possível distribuidor na região.
-					</p>
-					<p>
-						Essa análise orientava as visitas da equipe de vendas às concessionárias e servia como
-						referência para os programas de incentivo e treinamento dos novos distribuidores.
-					</p>
-					<h1>Resultados</h1>
-					<p>
-						Essa colaboração entre as equipes de vendas e produtos resultou em um aumento anual de
-						95% no volume de óleo Yamalube vendido no Brasil após o período de um ano, elevando a
-						participação de mercado sobre a frota circulante em mais de 15%. No mesmo ano, a Yamaha
-						do Brasil foi reconhecida na conferência anual da Yamaha como um caso de sucesso em
-						pós-vendas.
-					</p>
-					<p>
-						O diferencial desse projeto estava em saber onde concentrar os esforços para alcançar
-						resultados significativos, uma vez que a equipe já era enxuta e sacrificamos a margem de
-						um dos principais produtos do portfólio para aumentar o volume de vendas no mercado e
-						melhorar a percepção do produto pelo cliente.
-					</p> -->
+					{#if modalProps.content}
+						{#each modalProps.content as item}
+							{#if item.type === 'text'}
+								<p>{item.text}</p>
+							{:else if item.type === 'title'}
+								<h1>{item.text}</h1>
+							{:else if item.type === 'list'}
+								<ul>
+									{#each item.items as listItem}
+										<li>{listItem}</li>
+									{/each}
+								</ul>
+							{/if}
+						{/each}
+					{/if}
 				</div>
 			</div>
 		</div>
@@ -358,40 +296,6 @@
 		padding-right: 2rem;
 	}
 
-	/* .content h1 {
-		color: var(--main-color);
-		font-size: 1.2rem;
-		font-weight: 500;
-		margin-top: 2rem;
-		margin-bottom: 1rem;
-	}
-
-	.content p,
-	.content ul {
-		font-size: 1rem;
-		font-weight: 200;
-		margin: 1rem 0;
-		line-height: 1.5rem;
-		text-align: justify;
-	}
-
-	.content ul {
-		margin-left: 2rem;
-	}
-
-	.content ul li {
-		margin: 0.5rem 0;
-	}
-
-	.content img {
-		width: 100%;
-		height: auto;
-		margin: 1rem 0;
-		border-radius: 0.3rem;
-		border: 1px solid var(--alt-color);
-		box-shadow: inset 0 0 0.2rem var(--alt-color), 0 0 0.2rem var(--alt-color);
-	} */
-
 	@media (max-width: 768px) {
 		.modal-dialog {
 			width: 98%;
@@ -449,12 +353,47 @@
 		.content {
 			padding-right: 0.5rem;
 		}
-
-		/* .content p,
-		.content ul {
-			font-size: 0.9rem;
-			line-height: 1.3rem;
-			text-align: left;
-		} */
 	}
+
+	.content h1 {
+		color: var(--main-color);
+		font-size: 1.2rem;
+		font-weight: 500;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.content p,
+	.content ul {
+		font-size: 1rem;
+		font-weight: 200;
+		margin: 1rem 0;
+		line-height: 1.5rem;
+		text-align: justify;
+	}
+
+	.content ul {
+		margin-left: 2rem;
+	}
+
+	.content ul li {
+		margin: 0.5rem 0;
+	}
+
+	/* .content img {
+		width: 100%;
+		height: auto;
+		margin: 1rem 0;
+		border-radius: 0.3rem;
+		border: 1px solid var(--alt-color);
+		box-shadow: inset 0 0 0.2rem var(--alt-color), 0 0 0.2rem var(--alt-color);
+	} */
+
+	.content p,
+	.content ul {
+		font-size: 0.9rem;
+		line-height: 1.3rem;
+		text-align: left;
+	}
+
 </style>
