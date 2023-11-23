@@ -54,6 +54,11 @@
 
 <div class="section">
 	<h3>{interests.title}</h3>
+	<div class="text-block">
+		{#each interests.paragraphs as paragraph}
+			<p>{paragraph}</p>
+		{/each}
+	</div>
 	<div class="card-carousel">
 		<div class="card-item">
 			<div class="card-item-img">
@@ -323,6 +328,20 @@
 </div>
 
 <style>
+	.text-block p {
+		line-height: 1.5rem;
+		font-size: 1rem;
+		font-weight: 300;
+		margin-bottom: 0.5rem;
+		text-align: justify;
+	}
+
+	@media (max-width: 768px) {
+		.text-block p {
+			text-align: left;
+		}
+	}
+
 	.card-carousel {
 		display: flex;
 		flex-direction: row;

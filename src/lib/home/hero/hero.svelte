@@ -17,9 +17,9 @@
 	});
 </script>
 
-<div class="message">
+<!-- <div class="message">
 	<p>{hero.message}</p>
-</div>
+</div> -->
 <div class="hero">
 	<h2>{hero.greetings}</h2>
 	<h1>Maurício Fontes</h1>
@@ -74,7 +74,7 @@
 			</a>
 		</div>
 	</div>
-	<!-- <div class="scroll-icon" /> -->
+	<div class="scroll-icon" />
 </div>
 
 <style>
@@ -217,7 +217,7 @@
 		padding: 0.5rem 0;
 	}
 
-	/* .scroll-icon {
+	.scroll-icon {
 		position: absolute;
 		bottom: 4rem;
 		left: 50%;
@@ -226,7 +226,7 @@
 		border-left: 1px solid var(--light-gray);
 		border-bottom: 1px solid var(--light-gray);
 		animation: scrollIcon 1s infinite;
-	} */
+	}
 
 	@keyframes scrollIcon {
 		0% {
