@@ -1,298 +1,304 @@
 {
-	"hero": {
-		"greetings": "Olá, meu nome é",
-		"message": "Novidades em Breve!",
-		"description": {
-			"web": "mas o pessoal me chama de",
-			"mobile": "me chame de",
-			"values": [
-				"nerd do computador.",
-				"o cara de dados.",
-				"programador por hobbie.",
-				"tio dos gatos."
-			]
-		}
-	},
-	"content": {
-		"about": {
-			"title": "Que legal ter você aqui, deixa eu me apresentar...",
-			"paragraphs": [
-				"Resumidamente, sou o  menino do computador que hoje já aposentou seu guerreiro tanque de World of Warcraft e agora atua como Engenheiro de Dados e tutor de adoráveis felinos.",
-				"Adoro lidar com design e tecnologia desde criança, cursei programação no ensino médio e sempre fiz projetos pessoais relacionados a estes assuntos, trabalhei como designer gráfico por um tempo, mas foi em 2018 que realmente comecei minha carreira de forma definitiva no mundo dos dados.",
-				"Nas horas vagas eu costumo passar um tempo com minha família, programo por hobbie algumas coisas no ambiente em 2D, consumo conteúdos relacionados à ciência de modo geral, e é claro, aprecio memes e GIFs de gatinhos."
-			]
-		},
-		"interests": {
-			"title": "Agora que somos mais íntimos, vou te contar minhas áreas de interesse em caso de querer me contatar:",
-			"paragraphs": [
-				"Meus conhecimentos estão concentrados principalmente em engenharia de dados e arquitetura de dados em nuvem, mas já atuei por um bom tempo como analista de dados na indústria automotiva e de saúde mental. Também adoro trabalhar com projetos menores relacionados à automação que ajudam micro e pequenas empresas a ganhar eficiência e produtividade."
-			],
-			"items": {
-				"de": {
-					"title": "Engenharia de Dados",
-					"description": "Organização e análise eficiente de grandes volumes de dados."
-				},
-				"cloud": {
-					"title": "Computação em Nuvem",
-					"description": "Armazenamento e processamento de dados online, em servidores remotos."
-				},
-				"automation": {
-					"title": "Automação de Processos",
-					"description": "Substituição de tarefas manuais por sistemas automatizados."
-				},
-				"geometry": {
-					"title": "Geometria Plana",
-					"description": "Estudo das formas e relações no espaço bidimensional."
-				},
-				"nlp": {
-					"title": "Processamento de Linguagem Natural",
-					"description": "Compreensão e manipulação de linguagem humana por computadores."
-				},
-				"ml": {
-					"title": "Aprendizado de Máquina",
-					"description": "Algoritmos que permitem a máquina aprender padrões e tomar decisões."
-				},
-				"python": {
-					"title": "Desenvolvimento em Python",
-					"description": "Programação para web e uns projetinhos divertidos."
-				},
-				"science": {
-					"title": "Método Científico",
-					"description": "Abordagem sistemática para investigar fenômenos naturais."
-				}
-			}
-		},
-		"projects": {
-			"title": "Tem alguns projetos que participei no passado e que acho válido destacar.",
-			"items": [
-				{
-					"company": "Yamaha Motor do Brasil",
-					"companyLogo": "/svg/logo-yamaha.svg",
-					"companySite": "https://www.yamaha-motor.com.br/",
-					"period": "2019 — 2020",
-					"role": "Analista de Inteligência de Negócios",
-					"title": "Mapa de oportunidades de venda de óleo",
-					"description": "Uma ótimo case de cooperação e criatividade em um cenário adverso.",
-					"tools": ["Inteligência de Negócios", "Tratamento de Dados", "Excel", "VBA", "Power BI"],
-					"content": [
-						{
-							"type": "title",
-							"text": "Contexto do Projeto"
-						},
-						{
-							"type": "text",
-							"text": "Este projeto foi desenvolvido pelo departamento de pós-vendas da Yamaha Motor do Brasil em 2019, envolvendo as equipes de pós-vendas e de produtos. A meta era aumentar a participação de mercado do óleo da marca (Yamalube) sobre a frota circulante no Brasil. No entanto, a baixa disponibilidade e o preço elevado do produto, devido à limitada presença nos pontos de venda, apresentavam desafios para alcançar esse objetivo."
-						},
-						{
-							"type": "title",
-							"text": "Solução Desenvolvida"
-						},
-						{
-							"type": "text",
-							"text": "A solução consistiu em estabelecer parcerias com algumas concessionárias para que se tornassem distribuidoras de óleo. Nesse processo, abrimos mão de boa parte da margem de lucro em prol do aumento do escoamento do produto para varejistas menores a um preço competitivo."
-						},
-						{
-							"type": "text",
-							"text": "A questão central era: onde deveríamos criar esses distribuidores e qual era a capacidade real de absorção do mercado na região? Minha ideia foi mapear oportunidades no mercado, considerando a distribuição da frota circulante com base nos relatórios de emplacamento de motos por modelo e cidade."
-						},
-						{
-							"type": "text",
-							"text": "Para isso, considerei várias camadas de dados e cálculos para criar as informações necessárias que orientariam a equipe de vendas:"
-						},
-						{
-							"type": "list",
-							"items": [
-								"Emplacamento de motocicletas em um período específico;",
-								"Cálculo da frota circulante, levando em conta índices de deterioração da frota ao longo do tempo;",
-								"Cálculo do consumo anual de óleo com base em índices de rodagem e revisões por modelo;",
-								"Vendas reais de óleo em uma determinada região;",
-								"Cálculo da diferença entre o consumo estimado e as vendas reais;",
-								"Concessionárias com o porte necessário para se tornarem distribuidoras;",
-								"Possíveis varejistas com base na base de CNPJs da Receita Federal."
-							]
-						},
-						{
-							"type": "text",
-							"text": "Com essas informações em mãos, o processo de análise visa identificar as regiões com a maior diferença entre o consumo estimado e as vendas reais  com uma vasta rede de varejistas que poderiam absorver os produtos de um possível distribuidor na região."
-						},
-						{
-							"type": "text",
-							"text": "A análise resultante não apenas apontou as regiões com a maior diferença entre o consumo estimado e as vendas reais, mas também identificou as concessionárias e varejistas ideais para se tornarem distribuidores. Esse processo direcionou as visitas estratégicas da equipe de vendas, servindo como base para programas de incentivo e treinamento aos novos distribuidores."
-						},
-						{
-							"type": "title",
-							"text": "Resultados"
-						},
-						{
-							"type": "text",
-							"text": "A colaboração entre as equipes de vendas e produtos resultou em um aumento anual de 95% no volume de óleo Yamalube vendido no Brasil em um ano. Isso elevou a participação de mercado sobre a frota circulante em mais de 15%, levando a Yamaha do Brasil a ser reconhecida como um caso de sucesso em pós-vendas na conferência anual da Yamaha. O projeto destacou-se ao concentrar esforços estratégicos, mesmo com uma equipe enxuta, sacrificando margens para impulsionar as vendas e a percepção do produto pelo cliente."
-						}
-					]
-				},
-				{
-					"company": "Ajinomoto",
-					"companyLogo": "/svg/logo-ajinomoto.svg",
-					"companySite": "https://www.ajinomoto.com.br/",
-					"period": "2023",
-					"role": "Engenheiro de Dados - Consultor",
-					"title": "Implementação de arquitetura de analytics na nuvem",
-					"description": "Pipelines de dados orquestradas de forma serverless, escalável e com custo otimizado. Infraestrutura de dados como código.",
-					"tools": [
-						"Arquitetura de Dados",
-						"Engenharia de Dados",
-						"Computação em Nuvem",
-						"AWS CDK",
-						"IaC",
-						"Python",
-						"PySpark"
-					],
-					"content": [
-						{
-							"type": "title",
-							"text": "Contexto do Projeto"
-						},
-						{
-							"type": "text",
-							"text": "Este projeto faz parte de um esforço da Ajinomoto do Brasil em modernizar e transportar sua infraestrutura de dados para a nuvem AWS, de modo que possa democratizar o acesso aos dados para os times de BI da empresa e assegurar a correta aplicação de suas políticas de governança de dados."
-						},
-						{
-							"type": "title",
-							"text": "Solução Desenvolvida"
-						},
-						{
-							"type": "text",
-							"text": "Para subir a infraestrutura utilizamos o AWS CDK por ser versátil e aceitar lógicas de linguagem de programação (neste caso, Python) e uma vez que todos os componentes internos da pipeline são serviços serverless e gerenciados pela própria AWS."
-						},
-						{
-							"type": "text",
-							"text": "Sistemas de alerta foram implementados utilizando AWS SNS em casos de quebra da pipeline ou em casos de falhas de validação nas checagens de qualidade de dados."
-						},
-						{
-							"type": "text",
-							"text": "Para a camada de serviço, os dados são disponibilizados no formato delta lake, aproveitando a integração entre o PySpark do Glue com o Iceberg, uma vez que as ingestões são incrementais para evitar desperdício no reprocessamento de dados."
-						},
-						{
-							"type": "title",
-							"text": "Resultados"
-						},
-						{
-							"type": "text",
-							"text": "A estrutura de custos é enxuta, uma vez que todos os serviços são cobrados sob demanda, como AWS Step Functions para orquestração, AWS Lambdas para realizar pequenas tarefas e AWS Glue para realizar as transformações e catalogar os dados."
-						}
-					]
-				},
-				{
-					"company": "Rabbot",
-					"companyLogo": "/svg/logo-rabbot.svg",
-					"companySite": "https://rabbot.co/",
-					"period": "2021",
-					"role": "Engenheiro de Dados",
-					"title": "Classificador de imagens treinável pelos usuários",
-					"description": "Como viabilizei a criação de um modelo de classificação de imagens personalizado como uma feature de um produto.",
-					"tools": [
-						"Aprendizado de Máquina",
-						"Visão Computacional",
-						"Computação em Nuvem",
-						"Tensorflow",
-						"Python",
-						"AWS"
-					],
-					"content": [
-						{
-							"type": "title",
-							"text": "Contexto do Projeto"
-						},
-						{
-							"type": "text",
-							"text": "A Rabbot oferece uma plataforma de gerenciamento de ativos de frotas, digitalizando processos como revisão, manutenção e check-in no pátio. O diferencial da solução é permitir que os clientes personalizem formulários e gerenciem automações."
-						},
-						{
-							"type": "text",
-							"text": "Nestes formulários existe uma funcionalidade de tirar fotos via câmera do celular para documentar avarias e o estado de componentes, mas o processo de validação dessas fotos se tornou um gargalo operacional, sujeito a erros constantes. Isso levanta a questão de como garantir que a digitalização dos processos não apenas colete dados, mas também aumente a eficiência operacional."
-						},
-						{
-							"type": "title",
-							"text": "Solução Desenvolvida"
-						},
-						{
-							"type": "text",
-							"text": "A solução que propus para otimizar o processo de validação de fotos na plataforma Rabbot é a implementação de um classificador de imagens usando redes neurais (inteligência artificial). Inspirado na abordagem da Teachable Machine, a ideia é permitir que cada cliente treine seu próprio classificador com uma amostra de 20 a 30 imagens por classe."
-						},
-						{
-							"type": "text",
-							"text": "Uma classe neste tipo de modelo significa uma possível saída, como por exemplo: pneu avariado, pneu em bom estado, não é pneu."
-						},
-						{
-							"type": "text",
-							"text": "Esta técnica aproveita um modelo pré-treinado para acelerar o aprendizado em um contexto específico, evitando a necessidade de milhares de imagens e horas de treinamento."
-						},
-						{
-							"type": "text",
-							"text": "A funcionalidade consiste em solicitar as imagens e as classes para o usuário, as imagens de formulários já preenchidos podem ser selecionadas para melhorar a experiência de uso. Estas imagens são então inseridas em um modelo que é treinado e armazenado para este cliente, quando um novo formulário for preenchido, este modelo é acionado e realiza a inferência na nova imagem. Se a imagem for considerada inválida, uma nova foto é solicitada para o operador."
-						},
-						{
-							"type": "title",
-							"text": "Resultados"
-						},
-						{
-							"type": "text",
-							"text": "Após a implementação desta funcionalidade e o devido treinamento realizado com os clientes, conseguimos automatizar a análise de cerca de 73% das imagens incorporadas por formulários, o que reduziu drasticamente o tempo de alguns dos processos dentro da plataforma."
-						},
-						{
-							"type": "text",
-							"text": "Uma vez que cada modelo é criado e gerenciado de forma independente pelo cliente, as taxas de classificação e assertividade variam para cada caso, por isso um sistema monitora os resultados obtidos por estes modelos e sinaliza os casos críticos para serem revisados pontualmente."
-						}
-					]
-				},
-				{
-					"company": "DocBr",
-					"companyLogo": "/svg/logo-opensource.svg",
-					"companySite": "https://github.com/fontes-mrc/docbr/tree/main",
-					"period": "2023 — Presente",
-					"role": "Principal Desenvolvedor",
-					"title": "Biblioteca em python para validação de documentos em escala",
-					"description": "Como criei uma biblioteca em Python para validação de documentos em escala para ser utilizado em pipelines de dados.",
-					"tools": ["Numpy", "Open Source", "Biblioteca Python"],
-					"content": [
-						{
-							"type": "title",
-							"text": "Contexto do Projeto"
-						},
-						{
-							"type": "text",
-							"text": "Em alguns trabalhos de pipelines de dados onde atuei era necessário validar a consistência de documentos de cadastro de empresas provenientes de técnicas de raspagem de dados e de OCR. Para isto, é necessário realizar uma série de operações em cada um dos documentos para realizar a limpeza e validação deste dado."
-						},
-						{
-							"type": "text",
-							"text": "Os algoritmos que estávamos utilizando eram desenhados para realizar operações individuais em sistemas transacionais e eram muito lentos para nosso contexto de trabalho. Dado este cenário, desenvolvi uma solução otimizada de validação de documentos em massa."
-						},
-						{
-							"type": "title",
-							"text": "Solução Desenvolvida"
-						},
-						{
-							"type": "text",
-							"text": "O que começou apenas como validação de documentos de empresas, logo se tornou uma biblioteca que valida vários tipos de documentos brasileiros em massa e que podem ser necessários em pipelines de dados."
-						},
-						{
-							"type": "text",
-							"text": "Ao contrário de sistemas transacionais, as pipelines se beneficiam de operações em massa, especialmente em matrizes numéricas, aproveitando bibliotecas otimizadas como o Numpy em Python."
-						},
-						{
-							"type": "text",
-							"text": "As operações de limpeza e validação são otimizadas por meio de operações vetorizadas e armazenamento contínuo em memória de arrays do Numpy, assegurando alta eficiência na padronização dos documentos."
-						},
-						{
-							"type": "title",
-							"text": "Resultados"
-						},
-						{
-							"type": "text",
-							"text": "A reescrita das operações para o contexto do Numpy possibilitou uma redução superior a 90% no tempo de limpeza e validação de dados de empresas. Além disso, a biblioteca gera informações adicionais com base nas regras de codificação governamentais, melhorando significativamente a eficiência do processo."
-						}
-					]
-				}
-			]
-		}
-	}
+    "hero": {
+        "greetings": "Olá, meu nome é",
+        "message": "Novidades em Breve!",
+        "description": {
+            "web": "mas o pessoal me chama de",
+            "mobile": "me chame de",
+            "values": [
+                "nerd do computador.",
+                "o cara de dados.",
+                "programador por hobbie.",
+                "tio dos gatos."
+            ]
+        }
+    },
+    "content": {
+        "about": {
+            "title": "Que legal ter você aqui, deixa eu me apresentar...",
+            "paragraphs": [
+                "Resumidamente, sou o  menino do computador que hoje já aposentou seu guerreiro tanque de World of Warcraft e agora atua como Engenheiro de Dados e tutor de adoráveis felinos.",
+                "Adoro lidar com design e tecnologia desde criança, cursei programação no ensino médio e sempre fiz projetos pessoais relacionados a estes assuntos, trabalhei como designer gráfico por um tempo, mas foi em 2018 que realmente comecei minha carreira de forma definitiva no mundo dos dados.",
+                "Nas horas vagas eu costumo passar um tempo com minha família, programo por hobbie algumas coisas no ambiente em 2D, consumo conteúdos relacionados à ciência de modo geral, e é claro, aprecio memes e GIFs de gatinhos."
+            ]
+        },
+        "interests": {
+            "title": "Agora que somos mais íntimos, vou te contar minhas áreas de interesse em caso de querer me contatar:",
+            "paragraphs": [
+                "Meus conhecimentos estão concentrados principalmente em engenharia de dados e arquitetura de dados em nuvem, mas já atuei por um bom tempo como analista de dados na indústria automotiva e de saúde mental. Também adoro trabalhar com projetos menores relacionados à automação que ajudam micro e pequenas empresas a ganhar eficiência e produtividade."
+            ],
+            "items": {
+                "de": {
+                    "title": "Engenharia de Dados",
+                    "description": "Organização e análise eficiente de grandes volumes de dados."
+                },
+                "cloud": {
+                    "title": "Computação em Nuvem",
+                    "description": "Armazenamento e processamento de dados online, em servidores remotos."
+                },
+                "automation": {
+                    "title": "Automação de Processos",
+                    "description": "Substituição de tarefas manuais por sistemas automatizados."
+                },
+                "geometry": {
+                    "title": "Geometria Plana",
+                    "description": "Estudo das formas e relações no espaço bidimensional."
+                },
+                "nlp": {
+                    "title": "Processamento de Linguagem Natural",
+                    "description": "Compreensão e manipulação de linguagem humana por computadores."
+                },
+                "ml": {
+                    "title": "Aprendizado de Máquina",
+                    "description": "Algoritmos que permitem a máquina aprender padrões e tomar decisões."
+                },
+                "python": {
+                    "title": "Desenvolvimento em Python",
+                    "description": "Programação para web e uns projetinhos divertidos."
+                },
+                "science": {
+                    "title": "Método Científico",
+                    "description": "Abordagem sistemática para investigar fenômenos naturais."
+                }
+            }
+        },
+        "projects": {
+            "title": "Tem alguns projetos que participei no passado e que acho válido destacar.",
+            "items": [
+                {
+                    "company": "Yamaha Motor do Brasil",
+                    "companyLogo": "/svg/logo-yamaha.svg",
+                    "companySite": "https://www.yamaha-motor.com.br/",
+                    "period": "2019 — 2020",
+                    "role": "Analista de Inteligência de Negócios",
+                    "title": "Mapa de oportunidades de venda de óleo",
+                    "description": "Uma ótimo case de cooperação e criatividade em um cenário adverso.",
+                    "tools": [
+                        "Inteligência de Negócios",
+                        "Tratamento de Dados",
+                        "Excel",
+                        "VBA",
+                        "Power BI"
+                    ],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Contexto do Projeto"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Este projeto foi desenvolvido pelo departamento de pós-vendas da Yamaha Motor do Brasil em 2019, envolvendo as equipes de pós-vendas e de produtos. A meta era aumentar a participação de mercado do óleo da marca (Yamalube) sobre a frota circulante no Brasil. No entanto, a baixa disponibilidade e o preço elevado do produto, devido à limitada presença nos pontos de venda, apresentavam desafios para alcançar esse objetivo."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Solução Desenvolvida"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A solução consistiu em estabelecer parcerias com algumas concessionárias para que se tornassem distribuidoras de óleo. Nesse processo, abrimos mão de boa parte da margem de lucro em prol do aumento do escoamento do produto para varejistas menores a um preço competitivo."
+                        },
+                        {
+                            "type": "text",
+                            "text": "A questão central era: onde deveríamos criar esses distribuidores e qual era a capacidade real de absorção do mercado na região? Minha ideia foi mapear oportunidades no mercado, considerando a distribuição da frota circulante com base nos relatórios de emplacamento de motos por modelo e cidade."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Para isso, considerei várias camadas de dados e cálculos para criar as informações necessárias que orientariam a equipe de vendas:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Emplacamento de motocicletas em um período específico;",
+                                "Cálculo da frota circulante, levando em conta índices de deterioração da frota ao longo do tempo;",
+                                "Cálculo do consumo anual de óleo com base em índices de rodagem e revisões por modelo;",
+                                "Vendas reais de óleo em uma determinada região;",
+                                "Cálculo da diferença entre o consumo estimado e as vendas reais;",
+                                "Concessionárias com o porte necessário para se tornarem distribuidoras;",
+                                "Possíveis varejistas com base na base de CNPJs da Receita Federal."
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "Com essas informações em mãos, o processo de análise visa identificar as regiões com a maior diferença entre o consumo estimado e as vendas reais  com uma vasta rede de varejistas que poderiam absorver os produtos de um possível distribuidor na região."
+                        },
+                        {
+                            "type": "text",
+                            "text": "A análise resultante não apenas apontou as regiões com a maior diferença entre o consumo estimado e as vendas reais, mas também identificou as concessionárias e varejistas ideais para se tornarem distribuidores. Esse processo direcionou as visitas estratégicas da equipe de vendas, servindo como base para programas de incentivo e treinamento aos novos distribuidores."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Resultados"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A colaboração entre as equipes de vendas e produtos resultou em um aumento anual de 95% no volume de óleo Yamalube vendido no Brasil em um ano. Isso elevou a participação de mercado sobre a frota circulante em mais de 15%, levando a Yamaha do Brasil a ser reconhecida como um caso de sucesso em pós-vendas na conferência anual da Yamaha. O projeto destacou-se ao concentrar esforços estratégicos, mesmo com uma equipe enxuta, sacrificando margens para impulsionar as vendas e a percepção do produto pelo cliente."
+                        }
+                    ]
+                },
+                {
+                    "company": "Ajinomoto",
+                    "companyLogo": "/svg/logo-ajinomoto.svg",
+                    "companySite": "https://www.ajinomoto.com.br/",
+                    "period": "2023",
+                    "role": "Engenheiro de Dados - Consultor",
+                    "title": "Implementação de arquitetura de analytics na nuvem",
+                    "description": "Pipelines de dados orquestradas de forma serverless, escalável e com custo otimizado. Infraestrutura de dados como código.",
+                    "tools": [
+                        "Arquitetura de Dados",
+                        "Engenharia de Dados",
+                        "Computação em Nuvem",
+                        "AWS CDK",
+                        "IaC",
+                        "Python",
+                        "PySpark"
+                    ],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Contexto do Projeto"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Este projeto faz parte de um esforço da Ajinomoto do Brasil em modernizar e transportar sua infraestrutura de dados para a nuvem AWS, de modo que possa democratizar o acesso aos dados para os times de BI da empresa e assegurar a correta aplicação de suas políticas de governança de dados."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Solução Desenvolvida"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Para subir a infraestrutura utilizamos o AWS CDK por ser versátil e aceitar lógicas de linguagem de programação (neste caso, Python) e uma vez que todos os componentes internos da pipeline são serviços serverless e gerenciados pela própria AWS."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Sistemas de alerta foram implementados utilizando AWS SNS em casos de quebra da pipeline ou em casos de falhas de validação nas checagens de qualidade de dados."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Para a camada de serviço, os dados são disponibilizados no formato delta lake, aproveitando a integração entre o PySpark do Glue com o Iceberg, uma vez que as ingestões são incrementais para evitar desperdício no reprocessamento de dados."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Resultados"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A estrutura de custos é enxuta, uma vez que todos os serviços são cobrados sob demanda, como AWS Step Functions para orquestração, AWS Lambdas para realizar pequenas tarefas e AWS Glue para realizar as transformações e catalogar os dados."
+                        }
+                    ]
+                },
+                {
+                    "company": "Rabbot",
+                    "companyLogo": "/svg/logo-rabbot.svg",
+                    "companySite": "https://rabbot.co/",
+                    "period": "2021",
+                    "role": "Engenheiro de Dados",
+                    "title": "Classificador de imagens treinável pelos usuários",
+                    "description": "Como viabilizei a criação de um modelo de classificação de imagens personalizado como uma feature de um produto.",
+                    "tools": [
+                        "Aprendizado de Máquina",
+                        "Visão Computacional",
+                        "Computação em Nuvem",
+                        "Tensorflow",
+                        "Python",
+                        "AWS"
+                    ],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Contexto do Projeto"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A Rabbot oferece uma plataforma de gerenciamento de ativos de frotas, digitalizando processos como revisão, manutenção e check-in no pátio. O diferencial da solução é permitir que os clientes personalizem formulários e gerenciem automações."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Nestes formulários existe uma funcionalidade de tirar fotos via câmera do celular para documentar avarias e o estado de componentes, mas o processo de validação dessas fotos se tornou um gargalo operacional, sujeito a erros constantes. Isso levanta a questão de como garantir que a digitalização dos processos não apenas colete dados, mas também aumente a eficiência operacional."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Solução Desenvolvida"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A solução que propus para otimizar o processo de validação de fotos na plataforma Rabbot é a implementação de um classificador de imagens usando redes neurais (inteligência artificial). Inspirado na abordagem da Teachable Machine, a ideia é permitir que cada cliente treine seu próprio classificador com uma amostra de 20 a 30 imagens por classe."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Uma classe neste tipo de modelo significa uma possível saída, como por exemplo: pneu avariado, pneu em bom estado, não é pneu."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Esta técnica aproveita um modelo pré-treinado para acelerar o aprendizado em um contexto específico, evitando a necessidade de milhares de imagens e horas de treinamento."
+                        },
+                        {
+                            "type": "text",
+                            "text": "A funcionalidade consiste em solicitar as imagens e as classes para o usuário, as imagens de formulários já preenchidos podem ser selecionadas para melhorar a experiência de uso. Estas imagens são então inseridas em um modelo que é treinado e armazenado para este cliente, quando um novo formulário for preenchido, este modelo é acionado e realiza a inferência na nova imagem. Se a imagem for considerada inválida, uma nova foto é solicitada para o operador."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Resultados"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Após a implementação desta funcionalidade e o devido treinamento realizado com os clientes, conseguimos automatizar a análise de cerca de 73% das imagens incorporadas por formulários, o que reduziu drasticamente o tempo de alguns dos processos dentro da plataforma."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Uma vez que cada modelo é criado e gerenciado de forma independente pelo cliente, as taxas de classificação e assertividade variam para cada caso, por isso um sistema monitora os resultados obtidos por estes modelos e sinaliza os casos críticos para serem revisados pontualmente."
+                        }
+                    ]
+                },
+                {
+                    "company": "DocBr",
+                    "companyLogo": "/svg/logo-opensource.svg",
+                    "companySite": "https://github.com/fontes-mrc/docbr/tree/main",
+                    "period": "2023 — Presente",
+                    "role": "Principal Desenvolvedor",
+                    "title": "Biblioteca em python para validação de documentos em escala",
+                    "description": "Como criei uma biblioteca em Python para validação de documentos em escala para ser utilizado em pipelines de dados.",
+                    "tools": ["Numpy", "Open Source", "Biblioteca Python"],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Contexto do Projeto"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Em alguns trabalhos de pipelines de dados onde atuei era necessário validar a consistência de documentos de cadastro de empresas provenientes de técnicas de raspagem de dados e de OCR. Para isto, é necessário realizar uma série de operações em cada um dos documentos para realizar a limpeza e validação deste dado."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Os algoritmos que estávamos utilizando eram desenhados para realizar operações individuais em sistemas transacionais e eram muito lentos para nosso contexto de trabalho. Dado este cenário, desenvolvi uma solução otimizada de validação de documentos em massa."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Solução Desenvolvida"
+                        },
+                        {
+                            "type": "text",
+                            "text": "O que começou apenas como validação de documentos de empresas, logo se tornou uma biblioteca que valida vários tipos de documentos brasileiros em massa e que podem ser necessários em pipelines de dados."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Ao contrário de sistemas transacionais, as pipelines se beneficiam de operações em massa, especialmente em matrizes numéricas, aproveitando bibliotecas otimizadas como o Numpy em Python."
+                        },
+                        {
+                            "type": "text",
+                            "text": "As operações de limpeza e validação são otimizadas por meio de operações vetorizadas e armazenamento contínuo em memória de arrays do Numpy, assegurando alta eficiência na padronização dos documentos."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Resultados"
+                        },
+                        {
+                            "type": "text",
+                            "text": "A reescrita das operações para o contexto do Numpy possibilitou uma redução superior a 90% no tempo de limpeza e validação de dados de empresas. Além disso, a biblioteca gera informações adicionais com base nas regras de codificação governamentais, melhorando significativamente a eficiência do processo."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }

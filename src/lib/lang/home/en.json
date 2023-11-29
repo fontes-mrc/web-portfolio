@@ -1,293 +1,299 @@
 {
-	"hero": {
-		"greetings": "Hi, this is",
-		"message": "News Soon!",
-		"description": {
-			"web": "but folks call me",
-			"mobile": "call me",
-			"values": ["the computer guy.", "data engineer.", "hobbyist programmer.", "cat uncle."]
-		}
-	},
-	"content": {
-		"about": {
-			"title": "What a pleasure to have you here. Let me introduce myself...",
-			"paragraphs": [
-				"In a nutshell, I'm the computer guy who has retired his World of Warcraft warrior tank and now works as a Data Engineer and a caretaker of adorable felines.",
-				"I've had a passion for design and technology since childhood, delving into programming during high school. I've always embarked on personal projects related to these subjects. While I worked as a graphic designer for a period, it was in 2018 that I truly embarked on my definitive career in the world of data.",
-				"During my free time, I enjoy spending moments with my family, engaging in hobbyist 2D programming, consuming content related to science in general, and, of course, appreciating memes and kitten GIFs."
-			]
-		},
-		"interests": {
-			"title": "Now that we're better acquainted, let me share my areas of interest in case you'd like to get in touch:",
-			"paragraphs": [
-				"My expertise is primarily focused on data engineering and cloud data architecture. However, I've spent a considerable amount of time working as a data analyst in the automotive and mental health industries. I also love taking on smaller projects related to automation that assist micro and small businesses in gaining efficiency and productivity."
-			],
-			"items": {
-				"de": {
-					"title": "Data Engineering",
-					"description": "Efficient processing and analysis of large volumes of data."
-				},
-				"cloud": {
-					"title": "Cloud Computing",
-					"description": "Storage, manage and process data on remote servers."
-				},
-				"automation": {
-					"title": "Automation",
-					"description": "Replacing manual tasks with automated systems."
-				},
-				"geometry": {
-					"title": "Flat Geometry",
-					"description": "Study of shapes and relationships in two-dimensional space."
-				},
-				"nlp": {
-					"title": "Natural Language Processing",
-					"description": "Understanding and manipulating human language by computers."
-				},
-				"ml": {
-					"title": "Machine Learning",
-					"description": "Algorithms that enable machines to learn patterns and make decisions."
-				},
-				"python": {
-					"title": "Python Development",
-					"description": "Web programming and some fun side projects."
-				},
-				"science": {
-					"title": "Scientific Method",
-					"description": "The process of objectively establishing facts through testing and experimentation."
-				}
-			}
-		},
-		"projects": {
-			"title": "There are some projects I've been involved in the past that I believe are worth highlighting.",
-			"items": [
-				{
-					"company": "Yamaha Motor do Brasil",
-					"companyLogo": "/svg/logo-yamaha.svg",
-					"companySite": "https://www.yamaha-motor.com/",
-					"period": "2019 — 2020",
-					"role": "Business Intelligence Analyst",
-					"title": "Oil sales opportunity mapping",
-					"description": "A great case of cooperation and creativity in a challenging scenario.",
-					"tools": ["Business Intelligence", "Data Processing", "Excel", "VBA", "Power BI"],
-					"content": [
-						{
-							"type": "title",
-							"text": "Project Context"
-						},
-						{
-							"type": "text",
-							"text": "This project was developed by the after-sales department of Yamaha Motor do Brasil in 2019, involving the after-sales and product teams. The goal was to increase the market share of the brand's oil (Yamalube) in the circulating fleet in Brazil. However, the low availability and high price of the product, due to its limited presence in retail points, posed challenges in achieving this objective."
-						},
-						{
-							"type": "title",
-							"text": "Developed Solution"
-						},
-						{
-							"type": "text",
-							"text": "The solution involved establishing partnerships with select dealerships to become oil distributors. In this process, we sacrificed a significant portion of the profit margin to increase the product flow to smaller retailers at a competitive price."
-						},
-						{
-							"type": "text",
-							"text": "The central question was: where should these distributors be created, and what was the actual market absorption capacity in the region? My idea was to map opportunities in the market, considering the distribution of the circulating fleet based on motorcycle registration reports by model and city."
-						},
-						{
-							"type": "text",
-							"text": "To achieve this, I considered various layers of data and calculations to create the necessary information that would guide the sales team:"
-						},
-						{
-							"type": "list",
-							"items": [
-								"Motorcycle registrations in a specific period;",
-								"Calculation of the circulating fleet, taking into account fleet deterioration rates over time;",
-								"Annual oil consumption calculation based on mileage and model-specific revision rates;",
-								"Actual oil sales in a particular region;",
-								"Calculation of the difference between estimated consumption and actual sales;",
-								"Dealerships with the necessary size to become distributors;",
-								"Potential retailers identified using government business registration database."
-							]
-						},
-						{
-							"type": "text",
-							"text": "With this information in hand, the analysis process aimed to identify regions with the highest difference between estimated consumption and actual sales, along with a broad network of retailers that could absorb products from a potential distributor in the region."
-						},
-						{
-							"type": "text",
-							"text": "The resulting analysis not only pinpointed regions with the highest difference between estimated consumption and actual sales but also identified ideal dealerships and retailers to become distributors. This process guided strategic visits by the sales team, serving as the basis for incentive programs and training for new distributors."
-						},
-						{
-							"type": "title",
-							"text": "Results"
-						},
-						{
-							"type": "text",
-							"text": "The collaboration between the sales and product teams resulted in an annual increase of 95% in the volume of Yamalube oil sold in Brazil within one year. This elevated the market share over the circulating fleet by more than 15%, leading Yamaha from Brazil to be recognized as a successful case in after-sales at the annual Yamaha conference. The project stood out by focusing on strategic efforts, even with a lean team, sacrificing margins to boost sales and enhance the customer perception of the product."
-						}
-					]
-				},
-				{
-					"company": "Ajinomoto",
-					"companyLogo": "/svg/logo-ajinomoto.svg",
-					"companySite": "https://www.ajinomoto.com/",
-					"period": "2023",
-					"role": "Data Engineer - Contractor",
-					"title": "Implementation of an analytics architecture on cloud",
-					"description": "Serverless, scalable, and cost-optimized data pipelines. Data infrastructure as code.",
-					"tools": [
-						"Data Architecture",
-						"Data Engineering",
-						"Cloud Computing",
-						"AWS CDK",
-						"IaC",
-						"Python",
-						"PySpark"
-					],
-					"content": [
-						{
-							"type": "title",
-							"text": "Project Context"
-						},
-						{
-							"type": "text",
-							"text": "This project is part of Ajinomoto do Brasil's initiative to modernize and transition its data infrastructure to AWS cloud, aiming to democratize data access for the company's BI teams and ensure the proper application of data governance policies."
-						},
-						{
-							"type": "title",
-							"text": "Developed Solution"
-						},
-						{
-							"type": "text",
-							"text": "To deploy the infrastructure, we utilized AWS CDK for its versatility and support for programming language logic (in this case, Python). All internal components of the pipeline are serverless and managed by AWS."
-						},
-						{
-							"type": "text",
-							"text": "Alert systems were implemented using AWS SNS in cases of pipeline failure or data quality validation check failures."
-						},
-						{
-							"type": "text",
-							"text": "For the service layer, data is made available in delta lake format, leveraging the integration between Glue's PySpark and Iceberg. Ingestions are incremental to avoid unnecessary data reprocessing."
-						},
-						{
-							"type": "title",
-							"text": "Results"
-						},
-						{
-							"type": "text",
-							"text": "The cost structure is streamlined, as all services are billed on-demand. AWS Step Functions handle orchestration, AWS Lambdas perform small tasks, and AWS Glue manages data transformations and cataloging."
-						}
-					]
-				},
-				{
-					"company": "Rabbot",
-					"companyLogo": "/svg/logo-rabbot.svg",
-					"title": "Teachable image classifier",
-					"companySite": "https://rabbot.co/",
-					"period": "2021",
-					"role": "Data Engineer",
-					"description": "How I enabled the creation of a personalized image classification model as a product feature.",
-					"tools": [
-						"Machine Learning",
-						"Computer Vision",
-						"Cloud Computing",
-						"Tensorflow",
-						"Python",
-						"AWS"
-					],
-					"content": [
-						{
-							"type": "title",
-							"text": "Project Context"
-						},
-						{
-							"type": "text",
-							"text": "Rabbot provides a fleet asset management platform, digitizing processes such as inspections, maintenance, and yard check-ins. The solution's key feature allows clients to customize forms and manage automations."
-						},
-						{
-							"type": "text",
-							"text": "Within these forms, there is a functionality to take photos via the mobile camera to document damages and the state of components. However, the validation process for these photos became an operational bottleneck, prone to constant errors. This raises the question of how to ensure that the digitization of processes not only collects data but also enhances operational efficiency."
-						},
-						{
-							"type": "title",
-							"text": "Developed Solution"
-						},
-						{
-							"type": "text",
-							"text": "The solution I proposed to optimize the photo validation process on the Rabbot platform is the implementation of an image classifier using neural networks (artificial intelligence). Inspired by the Teachable Machine approach, the idea is to enable each client to train their own classifier with a sample of 20 to 30 images per class."
-						},
-						{
-							"type": "text",
-							"text": "In this context, a class represents a possible output, such as: damaged tire, tire in good condition, not a tire."
-						},
-						{
-							"type": "text",
-							"text": "This technique leverages a pre-trained model to expedite learning in a specific context, avoiding the need for thousands of images and hours of training."
-						},
-						{
-							"type": "text",
-							"text": "The functionality involves requesting images and classes from the user. Images from filled-out forms can be selected to enhance the user experience. These images are then input into a model that is trained and stored for this client. When a new form is filled out, this model is triggered and performs inference on the new image. If the image is considered invalid, a new photo is requested from the operator."
-						},
-						{
-							"type": "title",
-							"text": "Results"
-						},
-						{
-							"type": "text",
-							"text": "After implementing this functionality and conducting the necessary training with clients, we automated the analysis of approximately 73% of images embedded in forms, significantly reducing processing time within the platform."
-						},
-						{
-							"type": "text",
-							"text": "Since each model is created and managed independently by the client, classification rates and accuracy vary for each case. Therefore, a system monitors the results obtained by these models and flags critical cases for specific reviews."
-						}
-					]
-				},
-				{
-					"company": "DocBr",
-					"companyLogo": "/svg/logo-opensource.svg",
-					"companySite": "https://github.com/fontes-mrc/docbr/tree/main",
-					"period": "2023 — Presente",
-					"role": "Main Developer",
-					"title": "Python library for brazilian document validation at scale",
-					"description": "Creating a Python library for document validation to use in data pipelines.",
-					"tools": ["Numpy", "Open Source", "Python Library"],
-					"content": [
-						{
-							"type": "title",
-							"text": "Project Context"
-						},
-						{
-							"type": "text",
-							"text": "In some data pipeline projects I've been involved in, it was necessary to validate the consistency of company registration documents derived from data scraping and OCR techniques. To achieve this, a series of operations on each document were required for data cleaning and validation."
-						},
-						{
-							"type": "text",
-							"text": "The algorithms we were using were designed for individual operations in transactional systems and were too slow for our working context. Faced with this scenario, I developed an optimized solution for mass document validation."
-						},
-						{
-							"type": "title",
-							"text": "Developed Solution"
-						},
-						{
-							"type": "text",
-							"text": "What began as just company document validation quickly evolved into a library that validates various types of Brazilian documents in bulk, which may be required in data pipelines."
-						},
-						{
-							"type": "text",
-							"text": "Unlike transactional systems, pipelines benefit from bulk operations, especially in numerical arrays, leveraging optimized libraries like Numpy in Python."
-						},
-						{
-							"type": "text",
-							"text": "Cleaning and validation operations are optimized through vectorized operations and continuous in-memory storage of Numpy arrays, ensuring high efficiency in standardizing documents."
-						},
-						{
-							"type": "title",
-							"text": "Results"
-						},
-						{
-							"type": "text",
-							"text": "Rewriting operations for the Numpy context resulted in a reduction of over 90% in the time required for cleaning and validating company data. Additionally, the library generates additional information based on government coding rules, significantly improving process efficiency."
-						}
-					]
-				}
-			]
-		}
-	}
+    "hero": {
+        "greetings": "Hi, this is",
+        "message": "News Soon!",
+        "description": {
+            "web": "but folks call me",
+            "mobile": "call me",
+            "values": ["the computer guy.", "data engineer.", "hobbyist programmer.", "cat uncle."]
+        }
+    },
+    "content": {
+        "about": {
+            "title": "What a pleasure to have you here. Let me introduce myself...",
+            "paragraphs": [
+                "In a nutshell, I'm the computer guy who has retired his World of Warcraft warrior tank and now works as a Data Engineer and a caretaker of adorable felines.",
+                "I've had a passion for design and technology since childhood, delving into programming during high school. I've always embarked on personal projects related to these subjects. While I worked as a graphic designer for a period, it was in 2018 that I truly embarked on my definitive career in the world of data.",
+                "During my free time, I enjoy spending moments with my family, engaging in hobbyist 2D programming, consuming content related to science in general, and, of course, appreciating memes and kitten GIFs."
+            ]
+        },
+        "interests": {
+            "title": "Now that we're better acquainted, let me share my areas of interest in case you'd like to get in touch:",
+            "paragraphs": [
+                "My expertise is primarily focused on data engineering and cloud data architecture. However, I've spent a considerable amount of time working as a data analyst in the automotive and mental health industries. I also love taking on smaller projects related to automation that assist micro and small businesses in gaining efficiency and productivity."
+            ],
+            "items": {
+                "de": {
+                    "title": "Data Engineering",
+                    "description": "Efficient processing and analysis of large volumes of data."
+                },
+                "cloud": {
+                    "title": "Cloud Computing",
+                    "description": "Storage, manage and process data on remote servers."
+                },
+                "automation": {
+                    "title": "Automation",
+                    "description": "Replacing manual tasks with automated systems."
+                },
+                "geometry": {
+                    "title": "Flat Geometry",
+                    "description": "Study of shapes and relationships in two-dimensional space."
+                },
+                "nlp": {
+                    "title": "Natural Language Processing",
+                    "description": "Understanding and manipulating human language by computers."
+                },
+                "ml": {
+                    "title": "Machine Learning",
+                    "description": "Algorithms that enable machines to learn patterns and make decisions."
+                },
+                "python": {
+                    "title": "Python Development",
+                    "description": "Web programming and some fun side projects."
+                },
+                "science": {
+                    "title": "Scientific Method",
+                    "description": "The process of objectively establishing facts through testing and experimentation."
+                }
+            }
+        },
+        "projects": {
+            "title": "There are some projects I've been involved in the past that I believe are worth highlighting.",
+            "items": [
+                {
+                    "company": "Yamaha Motor do Brasil",
+                    "companyLogo": "/svg/logo-yamaha.svg",
+                    "companySite": "https://www.yamaha-motor.com/",
+                    "period": "2019 — 2020",
+                    "role": "Business Intelligence Analyst",
+                    "title": "Oil sales opportunity mapping",
+                    "description": "A great case of cooperation and creativity in a challenging scenario.",
+                    "tools": [
+                        "Business Intelligence",
+                        "Data Processing",
+                        "Excel",
+                        "VBA",
+                        "Power BI"
+                    ],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Project Context"
+                        },
+                        {
+                            "type": "text",
+                            "text": "This project was developed by the after-sales department of Yamaha Motor do Brasil in 2019, involving the after-sales and product teams. The goal was to increase the market share of the brand's oil (Yamalube) in the circulating fleet in Brazil. However, the low availability and high price of the product, due to its limited presence in retail points, posed challenges in achieving this objective."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Developed Solution"
+                        },
+                        {
+                            "type": "text",
+                            "text": "The solution involved establishing partnerships with select dealerships to become oil distributors. In this process, we sacrificed a significant portion of the profit margin to increase the product flow to smaller retailers at a competitive price."
+                        },
+                        {
+                            "type": "text",
+                            "text": "The central question was: where should these distributors be created, and what was the actual market absorption capacity in the region? My idea was to map opportunities in the market, considering the distribution of the circulating fleet based on motorcycle registration reports by model and city."
+                        },
+                        {
+                            "type": "text",
+                            "text": "To achieve this, I considered various layers of data and calculations to create the necessary information that would guide the sales team:"
+                        },
+                        {
+                            "type": "list",
+                            "items": [
+                                "Motorcycle registrations in a specific period;",
+                                "Calculation of the circulating fleet, taking into account fleet deterioration rates over time;",
+                                "Annual oil consumption calculation based on mileage and model-specific revision rates;",
+                                "Actual oil sales in a particular region;",
+                                "Calculation of the difference between estimated consumption and actual sales;",
+                                "Dealerships with the necessary size to become distributors;",
+                                "Potential retailers identified using government business registration database."
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "text": "With this information in hand, the analysis process aimed to identify regions with the highest difference between estimated consumption and actual sales, along with a broad network of retailers that could absorb products from a potential distributor in the region."
+                        },
+                        {
+                            "type": "text",
+                            "text": "The resulting analysis not only pinpointed regions with the highest difference between estimated consumption and actual sales but also identified ideal dealerships and retailers to become distributors. This process guided strategic visits by the sales team, serving as the basis for incentive programs and training for new distributors."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Results"
+                        },
+                        {
+                            "type": "text",
+                            "text": "The collaboration between the sales and product teams resulted in an annual increase of 95% in the volume of Yamalube oil sold in Brazil within one year. This elevated the market share over the circulating fleet by more than 15%, leading Yamaha from Brazil to be recognized as a successful case in after-sales at the annual Yamaha conference. The project stood out by focusing on strategic efforts, even with a lean team, sacrificing margins to boost sales and enhance the customer perception of the product."
+                        }
+                    ]
+                },
+                {
+                    "company": "Ajinomoto",
+                    "companyLogo": "/svg/logo-ajinomoto.svg",
+                    "companySite": "https://www.ajinomoto.com/",
+                    "period": "2023",
+                    "role": "Data Engineer - Contractor",
+                    "title": "Implementation of an analytics architecture on cloud",
+                    "description": "Serverless, scalable, and cost-optimized data pipelines. Data infrastructure as code.",
+                    "tools": [
+                        "Data Architecture",
+                        "Data Engineering",
+                        "Cloud Computing",
+                        "AWS CDK",
+                        "IaC",
+                        "Python",
+                        "PySpark"
+                    ],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Project Context"
+                        },
+                        {
+                            "type": "text",
+                            "text": "This project is part of Ajinomoto do Brasil's initiative to modernize and transition its data infrastructure to AWS cloud, aiming to democratize data access for the company's BI teams and ensure the proper application of data governance policies."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Developed Solution"
+                        },
+                        {
+                            "type": "text",
+                            "text": "To deploy the infrastructure, we utilized AWS CDK for its versatility and support for programming language logic (in this case, Python). All internal components of the pipeline are serverless and managed by AWS."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Alert systems were implemented using AWS SNS in cases of pipeline failure or data quality validation check failures."
+                        },
+                        {
+                            "type": "text",
+                            "text": "For the service layer, data is made available in delta lake format, leveraging the integration between Glue's PySpark and Iceberg. Ingestions are incremental to avoid unnecessary data reprocessing."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Results"
+                        },
+                        {
+                            "type": "text",
+                            "text": "The cost structure is streamlined, as all services are billed on-demand. AWS Step Functions handle orchestration, AWS Lambdas perform small tasks, and AWS Glue manages data transformations and cataloging."
+                        }
+                    ]
+                },
+                {
+                    "company": "Rabbot",
+                    "companyLogo": "/svg/logo-rabbot.svg",
+                    "title": "Teachable image classifier",
+                    "companySite": "https://rabbot.co/",
+                    "period": "2021",
+                    "role": "Data Engineer",
+                    "description": "How I enabled the creation of a personalized image classification model as a product feature.",
+                    "tools": [
+                        "Machine Learning",
+                        "Computer Vision",
+                        "Cloud Computing",
+                        "Tensorflow",
+                        "Python",
+                        "AWS"
+                    ],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Project Context"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Rabbot provides a fleet asset management platform, digitizing processes such as inspections, maintenance, and yard check-ins. The solution's key feature allows clients to customize forms and manage automations."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Within these forms, there is a functionality to take photos via the mobile camera to document damages and the state of components. However, the validation process for these photos became an operational bottleneck, prone to constant errors. This raises the question of how to ensure that the digitization of processes not only collects data but also enhances operational efficiency."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Developed Solution"
+                        },
+                        {
+                            "type": "text",
+                            "text": "The solution I proposed to optimize the photo validation process on the Rabbot platform is the implementation of an image classifier using neural networks (artificial intelligence). Inspired by the Teachable Machine approach, the idea is to enable each client to train their own classifier with a sample of 20 to 30 images per class."
+                        },
+                        {
+                            "type": "text",
+                            "text": "In this context, a class represents a possible output, such as: damaged tire, tire in good condition, not a tire."
+                        },
+                        {
+                            "type": "text",
+                            "text": "This technique leverages a pre-trained model to expedite learning in a specific context, avoiding the need for thousands of images and hours of training."
+                        },
+                        {
+                            "type": "text",
+                            "text": "The functionality involves requesting images and classes from the user. Images from filled-out forms can be selected to enhance the user experience. These images are then input into a model that is trained and stored for this client. When a new form is filled out, this model is triggered and performs inference on the new image. If the image is considered invalid, a new photo is requested from the operator."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Results"
+                        },
+                        {
+                            "type": "text",
+                            "text": "After implementing this functionality and conducting the necessary training with clients, we automated the analysis of approximately 73% of images embedded in forms, significantly reducing processing time within the platform."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Since each model is created and managed independently by the client, classification rates and accuracy vary for each case. Therefore, a system monitors the results obtained by these models and flags critical cases for specific reviews."
+                        }
+                    ]
+                },
+                {
+                    "company": "DocBr",
+                    "companyLogo": "/svg/logo-opensource.svg",
+                    "companySite": "https://github.com/fontes-mrc/docbr/tree/main",
+                    "period": "2023 — Presente",
+                    "role": "Main Developer",
+                    "title": "Python library for brazilian document validation at scale",
+                    "description": "Creating a Python library for document validation to use in data pipelines.",
+                    "tools": ["Numpy", "Open Source", "Python Library"],
+                    "content": [
+                        {
+                            "type": "title",
+                            "text": "Project Context"
+                        },
+                        {
+                            "type": "text",
+                            "text": "In some data pipeline projects I've been involved in, it was necessary to validate the consistency of company registration documents derived from data scraping and OCR techniques. To achieve this, a series of operations on each document were required for data cleaning and validation."
+                        },
+                        {
+                            "type": "text",
+                            "text": "The algorithms we were using were designed for individual operations in transactional systems and were too slow for our working context. Faced with this scenario, I developed an optimized solution for mass document validation."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Developed Solution"
+                        },
+                        {
+                            "type": "text",
+                            "text": "What began as just company document validation quickly evolved into a library that validates various types of Brazilian documents in bulk, which may be required in data pipelines."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Unlike transactional systems, pipelines benefit from bulk operations, especially in numerical arrays, leveraging optimized libraries like Numpy in Python."
+                        },
+                        {
+                            "type": "text",
+                            "text": "Cleaning and validation operations are optimized through vectorized operations and continuous in-memory storage of Numpy arrays, ensuring high efficiency in standardizing documents."
+                        },
+                        {
+                            "type": "title",
+                            "text": "Results"
+                        },
+                        {
+                            "type": "text",
+                            "text": "Rewriting operations for the Numpy context resulted in a reduction of over 90% in the time required for cleaning and validating company data. Additionally, the library generates additional information based on government coding rules, significantly improving process efficiency."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 }
